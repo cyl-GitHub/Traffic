@@ -1,0 +1,25 @@
+.blue {
+    background-color: #1D6BD0;
+    color: #fff;
+}
+
+.blue1 {
+    color: #1D6BD0;
+}
+
+.green {
+    background-color: #3da600;
+    color: #fff;
+}
+
+.red {
+    background-color: red;
+    color: #fff;
+}
+.red1 {
+    color: red;
+}
+
+.mheight {
+    max-height: 100px;
+}

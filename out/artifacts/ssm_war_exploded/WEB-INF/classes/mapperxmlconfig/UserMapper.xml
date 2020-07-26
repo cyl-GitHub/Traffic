@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.colin.mapper.UserMapper">
+    <insert id="insertUser">
+        insert into user(id,name,password,telephone) values(#{id},#{name},#{password},#{telephone});
+    </insert>
+    <insert id="insertTestRecord">
+        insert into testrecord(uid, class1, class3, score) values (#{param1},#{param2},#{param3},#{param4})
+    </insert>
+    <select id="selectUser" resultType="com.colin.bean.User">
+        select id,name,password,sex,location,telephone,avatar from user where id = #{id}
+    </select>
+    <select id="selectBestScore" resultType="java.lang.Integer">
+        SELECT max(score) FROM testrecord where uid = #{param1} and class1 =#{param2} and class3 = #{param3} ;
+    </select>
+
+    <update id="updateFourthScore">
+        update user set fourthscore = #{param2} where id = #{param1}
+    </update>
+    <update id="changePassword">
+        update user set password = #{password} where id = #{id}
+    </update>
+    <update id="replaceAvatar">
+        update user set avatar = #{avatar} where id = #{id}
+    </update>
+</mapper>

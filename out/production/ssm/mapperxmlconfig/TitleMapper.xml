@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.colin.mapper.TitleMapper">
+    <insert id="insertTitle">
+        insert into title(content,key1,key2,key3,key4,`key`,multiple,picture,score,class1,class2,class3,analysis,admin,rightcount,wrongcount,rate)
+        values (#{content},#{key1},#{key2},#{key3},#{key4},#{key},#{multiple},#{picture},#{score},#{class1},#{class2},#{class3},#{analysis},#{admin},0,0,0)
+    </insert>
+    <insert id="insertShouCang">
+        insert into collection(uid,tid) values (#{param1},#{param2});
+    </insert>
+    <insert id="answerrecord">
+        insert into answerrecord(uid,tid,`right`) values (#{param1},#{param2},#{param3})
+    </insert>
+
+
+    <update id="updateTitle">
+        update title set content = #{content},key1 = #{key1},key2 = #{key2},key3 = #{key3},key4 = #{key4},`key`= #{key},multiple = #{multiple},picture = #{picture},score = #{score},class1 = #{class1},class2 = #{class2},class3 = #{class3},analysis = #{analysis} where id = #{id}
+    </update>
+    <update id="answerCount">
+        update title set wrongcount = wrongcount+1 , rate = wrongcount/(wrongcount+`rightcount`) where id = #{id}
+    </update>
+    <update id="answerCount1">
+        update title set `rightcount` = `rightcount`+1 , rate = wrongcount/(wrongcount+`rightcount`) where id = #{id}
+    </update>
+
+
+    <delete id="deleteTitle">
+        delete from title where id = #{param1}
+    </delete>
+    <delete id="deleteShouCang">
+        delete from collection where uid = #{param1} and tid = #{param2}
+    </delete>
+    <delete id="deleteAnswerrecord">
+        delete from answerrecord where uid = #{param1} and tid = #{param2}
+    </delete>
+    <delete id="deleteCollection">
+        delete from collection where tid = #{id}
+    </delete>
+    <delete id="deleteAnswerrecord1">
+        delete from answerrecord where tid = #{id}
+    </delete>
+
+
+    <select id="selectAllTitle" resultType="com.colin.bean.Title">
+        select id,content,key1,key2,key3,key4,`key`,multiple,picture,score,class1,class2,class3,analysis,admin from title limit #{param1},#{param2};
+    </select>
+    <select id="selectCount" resultType="java.lang.Integer">
+        select count(*) from title
+    </select>
+    <select id="selectClassCount" resultType="java.lang.Integer">
+        select count(*) from title where class1 = #{param1} and class2 = #{param2} and class3 = #{param3}
+    </select>
+    <select id="selectClassTitle" resultType="com.colin.bean.Title">
+         select id,content,key1,key2,key3,key4,`key`,multiple,picture,score,class1,class2,analysis,admin from title where class2 = #{param3} limit #{param1},#{param2};
+    </select>
+    <select id="selectTitle" resultType="com.colin.bean.Title">
+         select id,content,key1,key2,key3,key4,`key`,multiple,picture,score,class1,class2,analysis,admin from title where id = #{param1};
+    </select>
+    <select id="selectRandTitle" resultType="com.colin.bean.Title">
+        select id,content,key1,key2,key3,key4,`key`,multiple,picture,score,class1,class2,class3,analysis,admin
+         from title where class1 = #{param1} and class3 = #{param2} order by rand() limit #{param3};
+    </select>
+    <select id="selectCarFirstCount" resultType="java.lang.Integer">
+        select count(*) from title where class1 = "科目一";
+    </select>
+    <select id="selectCarFourthCount" resultType="java.lang.Integer">
+        select count(*) from title where class1 = "科目四";
+    </select>
+    <select id="selectTitlesBycla3cla1" resultType="com.colin.bean.Title">
+        select id,content,key1,key2,key3,key4,`key`,multiple,picture,score,class1,class2,class3,analysis,admin
+        from title where class3 = #{param1} and class1 = #{param2}
+    </select>
+    <select id="collection" resultType="java.lang.Integer">
+        select count(*) from collection where uid = #{param1} and tid = #{param2}
+    </select>
+
+    <select id="selectUserTitleCount" resultType="java.lang.Integer">
+         select count(distinct tid) from answerrecord  join title where uid = #{param1} and title.id = tid and `right` = #{param2} and class1 = #{param3} and class3 = #{param4};
+    </select>
+    <select id="selectCollectionCount" resultType="java.lang.Integer">
+        select count(*) from collection join title where uid = #{param1} and collection.tid = title.id and class1 = #{param2} and class3 = #{param3};
+    </select>
+    <select id="selectScTitlesBycla3cla1" resultType="com.colin.bean.Title">
+         select title.id,content,key1,key2,key3,key4,`key`,multiple,picture,score,class1,class2,class3,analysis,admin
+         from collection join title where uid = #{param1} and collection.tid = title.id and class1 = #{param2} and class3 = #{param3};
+    </select>
+    <select id="selectTitlesBycla123" resultType="com.colin.bean.Title">
+         select id,content,key1,key2,key3,key4,`key`,multiple,picture,score,class1,class2,class3,analysis,admin
+        from title where class1 = #{param1} and class2 = #{param2} and class3 = #{param3}
+    </select>
+    <select id="selectRandTitleByCla123" resultType="com.colin.bean.Title">
+         select id,content,key1,key2,key3,key4,`key`,multiple,picture,score,class1,class2,class3,analysis,admin
+         from title where class1 = #{param1} and class2 = #{param2} and class3 = #{param3} order by rand();
+    </select>
+    <select id="selectNdTitlesBycla13" resultType="com.colin.bean.Title">
+        SELECT id,content,key1,key2,key3,key4,`key`,multiple,picture,score,class1,class2,class3,analysis,admin,`rightcount`,wrongcount,rate
+         FROM title  where class1 = #{param1} and class3 = #{param2}  order by rate desc limit #{param3}
+    </select>
+    <select id="selectClassCount1" resultType="java.lang.Integer">
+         select count(*) from title where class3 = #{param1}
+    </select>
+    <select id="selectClassTitle1" resultType="com.colin.bean.Title">
+         select id,content,key1,key2,key3,key4,`key`,multiple,picture,score,class1,class2,analysis,admin from title where class3 = #{param3} limit #{param1},#{param2};
+    </select>
+    <select id="selectQzTitlesByclassm13" resultType="com.colin.bean.Title">
+         SELECT id,content,key1,key2,key3,key4,`key`,multiple,picture,score,class1,class2,class3,analysis,admin
+         FROM title  where multiple = #{param1} and class1 = #{param2} and class3 = #{param3}  order by rand() limit #{param4}
+    </select>
+    <select id="selectWrongCount" resultType="java.lang.Integer">
+        select count(*) from answerrecord , title where title.id = tid and uid = #{param1} and class1 = #{param2} and class3 = #{param3} and `right`=0;
+    </select>
+    <select id="selectWrongTitles" resultType="com.colin.bean.Title">
+        select title.id,content,key1,key2,key3,key4,`key`,multiple,picture,score,class1,class2,class3,analysis,admin
+        from answerrecord,title where title.id = tid and uid = #{param1} and class1 = #{param2} and class3 = #{param3} and `right`=0;
+    </select>
+    <select id="selectClass3" resultType="java.lang.String">
+        select distinct class3 from class;
+    </select>
+    <select id="selectClass1" resultType="java.lang.String">
+        select distinct class1 from class where class3 = #{class3};
+    </select>
+    <select id="selectClass2" resultType="java.lang.String">
+        select distinct class2 from class where class3 = #{param1} and class1 = #{param2};
+    </select>
+    <select id="selectClassCount2" resultType="java.lang.Integer">
+         select count(*) from title where class3 = #{param1} and class1 = #{param2}
+    </select>
+    <select id="selectClassCount3" resultType="java.lang.Integer">
+         select count(*) from title where class3 = #{param1} and class1 = #{param2}
+         and class2 = #{param3}
+    </select>
+    <select id="selectClassTitle2" resultType="com.colin.bean.Title">
+         select id,content,key1,key2,key3,key4,`key`,multiple,picture,score,class1,class2,analysis,admin from title
+         where class3 = #{param3} and class1 = #{param4} limit #{param1},#{param2};
+    </select>
+    <select id="selectClassTitle3" resultType="com.colin.bean.Title">
+        select id,content,key1,key2,key3,key4,`key`,multiple,picture,score,class1,class2,analysis,admin from title
+         where class3 = #{param3} and class1 = #{param4} and class2 = #{param5} limit #{param1},#{param2};
+    </select>
+</mapper>

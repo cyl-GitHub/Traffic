@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ssm:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="274285fe-c7f5-4583-a039-3cdf6aad5f86" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="940393587">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="d" value="1" />
+          <entry key="java" value="1" />
+          <entry key="jsp" value="1" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="JSP" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="1" />
+          <entry key="java" value="5" />
+          <entry key="jsp" value="22" />
+          <entry key="properties" value="131" />
+          <entry key="xml" value="263" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="5" />
+          <entry key="JSP" value="22" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="131" />
+          <entry key="XML" value="263" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.core.usages.trigger">
+        <counts>
+          <entry key="fixes.SpringFacetInspection.AddFacetFix" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-292448004">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="24" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="3" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.66" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="35" />
+          <entry key="gif" value="3" />
+          <entry key="java" value="176" />
+          <entry key="jpg" value="2" />
+          <entry key="js" value="62" />
+          <entry key="jsp" value="106" />
+          <entry key="png" value="3" />
+          <entry key="properties" value="2" />
+          <entry key="rnc" value="2" />
+          <entry key="ts" value="5" />
+          <entry key="xml" value="43" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="35" />
+          <entry key="Image" value="8" />
+          <entry key="JAVA" value="176" />
+          <entry key="JSP" value="106" />
+          <entry key="JavaScript" value="62" />
+          <entry key="Properties" value="2" />
+          <entry key="RNG Compact" value="2" />
+          <entry key="TypeScript" value="5" />
+          <entry key="XML" value="43" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="160" />
+          <entry key="dummy" value="2" />
+          <entry key="java" value="5619" />
+          <entry key="js" value="2023" />
+          <entry key="jsp" value="4494" />
+          <entry key="properties" value="9" />
+          <entry key="xml" value="584" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="161" />
+          <entry key="JAVA" value="5619" />
+          <entry key="JSP" value="4494" />
+          <entry key="JavaScript" value="2022" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="9" />
+          <entry key="SQL" value="4" />
+          <entry key="XML" value="580" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="824981685">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="104" />
+          <entry key="dummy" value="10" />
+          <entry key="java" value="1331" />
+          <entry key="js" value="147" />
+          <entry key="jsp" value="851" />
+          <entry key="xml" value="114" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="105" />
+          <entry key="JAVA" value="1331" />
+          <entry key="JSP" value="850" />
+          <entry key="JavaScript" value="147" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="113" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="css" value="23" />
+          <entry key="java" value="54" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="21" />
+          <entry key="jsp" value="76" />
+          <entry key="png" value="12" />
+          <entry key="rnc" value="1" />
+          <entry key="xml" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="CSS" value="23" />
+          <entry key="Image" value="13" />
+          <entry key="JAVA" value="54" />
+          <entry key="JSP" value="76" />
+          <entry key="JavaScript" value="21" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="XML" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-385706228">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="81" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="13" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="14" />
+          <entry key="project.open.time.30" value="3" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="4" />
+          <entry key="project.open.time.36" value="2" />
+          <entry key="project.open.time.37" value="3" />
+          <entry key="project.open.time.38" value="5" />
+          <entry key="project.open.time.39" value="2" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.40" value="2" />
+          <entry key="project.open.time.41" value="2" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.45" value="3" />
+          <entry key="project.open.time.49" value="2" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.opened" value="85" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="3" />
+          <entry key="css" value="42" />
+          <entry key="java" value="208" />
+          <entry key="jpg" value="23" />
+          <entry key="js" value="78" />
+          <entry key="jsp" value="177" />
+          <entry key="png" value="8" />
+          <entry key="properties" value="5" />
+          <entry key="rnc" value="1" />
+          <entry key="tld" value="1" />
+          <entry key="xml" value="72" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="3" />
+          <entry key="CSS" value="42" />
+          <entry key="Image" value="31" />
+          <entry key="JAVA" value="208" />
+          <entry key="JSP" value="177" />
+          <entry key="JavaScript" value="78" />
+          <entry key="Properties" value="5" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="XML" value="73" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="196" />
+          <entry key="java" value="5998" />
+          <entry key="js" value="2985" />
+          <entry key="jsp" value="2956" />
+          <entry key="xml" value="1395" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="196" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="5998" />
+          <entry key="JSP" value="2956" />
+          <entry key="JavaScript" value="2984" />
+          <entry key="SQL" value="12" />
+          <entry key="XML" value="1383" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis" />
+        <option value="spring" />
+        <option value="Interface" />
+        <option value="CSS File" />
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>carFourthTitle</find>
+      <find>begin</find>
+      <find>carFourthScTitle</find>
+      <find>carFourthCount</find>
+      <find>wrongScCount</find>
+      <find>getFirstCarFourthSxCount</find>
+      <find>getCarFourthSc</find>
+      <find>getFirstCarFourthSx</find>
+      <find>Sc</find>
+      <find>target</find>
+      <find>check</find>
+      <find>for</find>
+      <find>难</find>
+      <find>selectClassCount</find>
+      <find>selectClassTitle</find>
+      <find>e</find>
+      <find>xj</find>
+      <find>red</find>
+      <find>id1: id,</find>
+      <find>carFourth</find>
+      <find>EOV</find>
+      <find>a</find>
+      <find>li</find>
+      <find>cla1</find>
+      <find>cla</find>
+      <find>title1</find>
+      <find>ava</find>
+      <find>select</find>
+      <find>3</find>
+      <find>pie</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>set</replace>
+      <replace>append</replace>
+      <replace>input type=&quot;button&quot;</replace>
+      <replace>title</replace>
+      <replace>carFourthTitles</replace>
+      <replace>carTitles</replace>
+      <replace>carTitle</replace>
+      <replace>carTitlesCount</replace>
+      <replace>getCarTitle</replace>
+      <replace>wrongCount</replace>
+      <replace>carFirst</replace>
+    </replaceStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/web/WEB-INF/jsp/car/fourth/sx.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/css/car/fourth/sx.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/car/fourth/sj.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/car/fourth/nd.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/car/fourth/sx.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/car/first/nd.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/car/first/shoucang.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/car/first/sj.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/car/first/sx.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/car/first/zj1.jsp" />
+        <option value="$PROJECT_DIR$/web/js/car/first/sx.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/car/first/zj.jsp" />
+        <option value="$PROJECT_DIR$/web/css/admin/page1.css" />
+        <option value="$PROJECT_DIR$/web/css/car/fourth/qz.css" />
+        <option value="$PROJECT_DIR$/web/css/car/main.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/car/first/qz.jsp" />
+        <option value="$PROJECT_DIR$/web/js/car/fourth/qz.js" />
+        <option value="$PROJECT_DIR$/web/js/car/first/qz.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/car/fourth/mockTest1.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/car/first/mockTest.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/car/wrong.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/user/userNavigation.jsp" />
+        <option value="$PROJECT_DIR$/src/com/colin/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/com/colin/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/colin/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/com/colin/bean/User.java" />
+        <option value="$PROJECT_DIR$/web/css/user/myInformation.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/user/replaceAvatar.jsp" />
+        <option value="$PROJECT_DIR$/web/js/user/replaceAvatar.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/title.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/navigation.jsp" />
+        <option value="$PROJECT_DIR$/Resource/mapperxmlconfig/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/totalPage.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/user/userTotalPage.jsp" />
+        <option value="$PROJECT_DIR$/src/com/colin/service/TitleService.java" />
+        <option value="$PROJECT_DIR$/src/com/colin/mapper/TitleMapper.java" />
+        <option value="$PROJECT_DIR$/src/com/colin/service/impl/TitleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/js/admin/title.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/addTitle.jsp" />
+        <option value="$PROJECT_DIR$/web/js/admin/updateTitle.js" />
+        <option value="$PROJECT_DIR$/src/com/colin/bean/Title.java" />
+        <option value="$PROJECT_DIR$/Resource/mapperxmlconfig/TitleMapper.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/updateTitle.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/title2.jsp" />
+        <option value="$PROJECT_DIR$/src/com/colin/controller/TitleController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/car/fourth/zj.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/car/fourth/qz.jsp" />
+        <option value="$PROJECT_DIR$/web/js/admin/addTitle.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/user/login.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/user/myInformation.jsp" />
+        <option value="$PROJECT_DIR$/src/com/colin/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/k.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1060" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Traffic Regulation Examination System_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Traffic Regulation Examination System_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Traffic Regulation Examination System_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Traffic Regulation Examination System_1" type="462c0819:PsiDirectoryNode" />
+              <item name="Resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Traffic Regulation Examination System_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Traffic Regulation Examination System_1" type="462c0819:PsiDirectoryNode" />
+              <item name="Resource" type="462c0819:PsiDirectoryNode" />
+              <item name="mapperxmlconfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Traffic Regulation Examination System_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Traffic Regulation Examination System_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595726965656" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/学习/课程设计/JSPMES" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="spring" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\学习\编译器\文件\Traffic Regulation Examination System_1\web\css\car\fourth" />
+      <recent name="D:\学习\编译器\文件\Traffic Regulation Examination System_1\web\img\mockTest" />
+      <recent name="D:\学习\编译器\文件\项目准备\Traffic Regulation Examination System\web\js\user" />
+      <recent name="D:\学习\编译器\文件\项目准备\Traffic Regulation Examination System\web\css\car" />
+      <recent name="D:\学习\编译器\文件\项目准备\Traffic Regulation Examination System\web\js\admin" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.colin.bean" />
+      <recent name="com.colin.util.yzm" />
+      <recent name="com.colin.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\学习\编译器\文件\Traffic Regulation Examination System_1\web\WEB-INF\lib" />
+      <recent name="D:\学习\编译器\文件\Traffic Regulation Examination System_1\Resource\springconfig" />
+      <recent name="D:\学习\编译器\文件\Traffic Regulation Examination System_1\web\WEB-INF\jsp\admin" />
+      <recent name="D:\学习\编译器\文件\Traffic Regulation Examination System_1\out\artifacts\ssm_war_exploded" />
+      <recent name="D:\学习\编译器\文件\Traffic Regulation Examination System_1\web\js\user" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.47">
+    <configuration name="hg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.colin.bean.hg" />
+      <module name="ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.colin.bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="k" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="k" />
+      <module name="ssm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.colin.controller.test" />
+      <module name="ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.colin.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 7.0.47" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.47" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/user/login" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ssm:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_47_ssm" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49625" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="myInformation.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.471" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/jsp/user/myInformation.jsp" />
+      <deployment>
+        <artifact name="traffic">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="myInformation_jsp_Traffic_Regulation_Examination_System_1" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="traffic" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 7.0.47" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.hg" />
+      <item itemvalue="Tomcat Server.myInformation.jsp" />
+      <item itemvalue="Application.k" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.k" />
+        <item itemvalue="Tomcat Server.myInformation.jsp" />
+        <item itemvalue="Application.hg" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="274285fe-c7f5-4583-a039-3cdf6aad5f86" name="Default Changelist" comment="" />
+      <created>1560838026802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560838026802</updated>
+      <workItem from="1560838033119" duration="7766000" />
+      <workItem from="1560849996802" duration="1618000" />
+      <workItem from="1576461516043" duration="5227000" />
+      <workItem from="1576543664706" duration="4619000" />
+      <workItem from="1576548330935" duration="4405000" />
+      <workItem from="1576588420745" duration="594000" />
+      <workItem from="1576629564601" duration="9400000" />
+      <workItem from="1576659777273" duration="7574000" />
+      <workItem from="1576672836445" duration="2409000" />
+      <workItem from="1576715744235" duration="7729000" />
+      <workItem from="1576747864768" duration="2886000" />
+      <workItem from="1576802303309" duration="8942000" />
+      <workItem from="1576891355781" duration="5991000" />
+      <workItem from="1576933824250" duration="13583000" />
+      <workItem from="1576985806575" duration="589000" />
+      <workItem from="1576987552920" duration="8702000" />
+      <workItem from="1577067563525" duration="4765000" />
+      <workItem from="1577093607941" duration="20223000" />
+      <workItem from="1577154712540" duration="5719000" />
+      <workItem from="1577162113160" duration="1210000" />
+      <workItem from="1577165937425" duration="6236000" />
+      <workItem from="1577173136013" duration="28000" />
+      <workItem from="1577187931786" duration="904000" />
+      <workItem from="1577248987564" duration="2717000" />
+      <workItem from="1577338422178" duration="8194000" />
+      <workItem from="1577369082539" duration="528000" />
+      <workItem from="1577369905356" duration="9592000" />
+      <workItem from="1577424734021" duration="9696000" />
+      <workItem from="1577434558540" duration="1278000" />
+      <workItem from="1577442513548" duration="1899000" />
+      <workItem from="1577508009956" duration="54000" />
+      <workItem from="1577590899207" duration="1848000" />
+      <workItem from="1577598087893" duration="10000" />
+      <workItem from="1580092515539" duration="72000" />
+      <workItem from="1580443365521" duration="5692000" />
+      <workItem from="1580813236724" duration="2867000" />
+      <workItem from="1581331769820" duration="7680000" />
+      <workItem from="1581384787571" duration="4174000" />
+      <workItem from="1581414789992" duration="843000" />
+      <workItem from="1581415906072" duration="9619000" />
+      <workItem from="1581469198536" duration="5812000" />
+      <workItem from="1581562612873" duration="4650000" />
+      <workItem from="1581570425469" duration="5363000" />
+      <workItem from="1581586308796" duration="15371000" />
+      <workItem from="1581641308018" duration="6584000" />
+      <workItem from="1581648108978" duration="1038000" />
+      <workItem from="1581649423029" duration="4020000" />
+      <workItem from="1581672591074" duration="8779000" />
+      <workItem from="1581681549144" duration="5386000" />
+      <workItem from="1581760338193" duration="18104000" />
+      <workItem from="1581839156522" duration="981000" />
+      <workItem from="1581852334348" duration="4353000" />
+      <workItem from="1581937717186" duration="16616000" />
+      <workItem from="1582019016026" duration="11800000" />
+      <workItem from="1582193659064" duration="21180000" />
+      <workItem from="1582281734278" duration="13700000" />
+      <workItem from="1582372188754" duration="12936000" />
+      <workItem from="1582884702321" duration="17305000" />
+      <workItem from="1582972791909" duration="593000" />
+      <workItem from="1582976286906" duration="776000" />
+      <workItem from="1582979379371" duration="1076000" />
+      <workItem from="1583148220653" duration="626000" />
+      <workItem from="1583401196719" duration="653000" />
+      <workItem from="1584154235901" duration="94000" />
+      <workItem from="1584154450083" duration="569000" />
+      <workItem from="1584156193439" duration="1437000" />
+      <workItem from="1584158053784" duration="362000" />
+      <workItem from="1585020418680" duration="451000" />
+      <workItem from="1585182920465" duration="22000" />
+      <workItem from="1585189389566" duration="59000" />
+      <workItem from="1585189637244" duration="1678000" />
+      <workItem from="1585277970931" duration="2945000" />
+      <workItem from="1585539998757" duration="847000" />
+      <workItem from="1585553120910" duration="1486000" />
+      <workItem from="1585613389175" duration="22000" />
+      <workItem from="1585616216946" duration="1542000" />
+      <workItem from="1585879767378" duration="31000" />
+      <workItem from="1586401719565" duration="41000" />
+      <workItem from="1587121826115" duration="177000" />
+      <workItem from="1587432172341" duration="619000" />
+      <workItem from="1587435802061" duration="21000" />
+      <workItem from="1587568065121" duration="2394000" />
+      <workItem from="1587602286173" duration="807000" />
+      <workItem from="1587717564003" duration="2866000" />
+      <workItem from="1587919518587" duration="713000" />
+      <workItem from="1587921121647" duration="15000" />
+      <workItem from="1588506603556" duration="913000" />
+      <workItem from="1588507631379" duration="46000" />
+      <workItem from="1588737526856" duration="1502000" />
+      <workItem from="1588741023512" duration="6605000" />
+      <workItem from="1588766396563" duration="3846000" />
+      <workItem from="1588777201053" duration="15000" />
+      <workItem from="1588778040076" duration="1361000" />
+      <workItem from="1589246599401" duration="772000" />
+      <workItem from="1589247483721" duration="148000" />
+      <workItem from="1589248465490" duration="654000" />
+      <workItem from="1589378531110" duration="1479000" />
+      <workItem from="1589447240512" duration="21000" />
+      <workItem from="1589447858640" duration="1476000" />
+      <workItem from="1589766566573" duration="551000" />
+      <workItem from="1589767492115" duration="185000" />
+      <workItem from="1589846798844" duration="295000" />
+      <workItem from="1591446978365" duration="447000" />
+      <workItem from="1591533207577" duration="677000" />
+      <workItem from="1591538665629" duration="300000" />
+      <workItem from="1592212232436" duration="690000" />
+      <workItem from="1592213329800" duration="102000" />
+      <workItem from="1592214251611" duration="680000" />
+      <workItem from="1592532879977" duration="2185000" />
+      <workItem from="1592561188357" duration="602000" />
+      <workItem from="1592615990172" duration="651000" />
+      <workItem from="1592627734842" duration="599000" />
+      <workItem from="1592632267575" duration="1281000" />
+      <workItem from="1593436062526" duration="235000" />
+      <workItem from="1593478942460" duration="1551000" />
+      <workItem from="1593687325947" duration="41000" />
+      <workItem from="1594219468375" duration="1199000" />
+      <workItem from="1594256870524" duration="42000" />
+      <workItem from="1594304312205" duration="5077000" />
+      <workItem from="1594347615064" duration="6143000" />
+      <workItem from="1594365476328" duration="1925000" />
+      <workItem from="1594436866578" duration="3791000" />
+      <workItem from="1595636369261" duration="619000" />
+      <workItem from="1595641111012" duration="5060000" />
+      <workItem from="1595658638613" duration="7698000" />
+      <workItem from="1595725903427" duration="1134000" />
+      <workItem from="1595730589729" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="457395000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4941349" visible="true" weight="0.18297587" />
+      <window_info id="Structure" order="1" sideWeight="0.5058651" side_tool="true" weight="0.18096514" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.50879765" side_tool="true" weight="0.29155496" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.51319647" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.53519064" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32991204" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20174263" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.67302054" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39442816" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32991204" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/colin/controller/TitleController.java</url>
+          <line>562</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Integer.java</url>
+          <line>946</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/css/popwindows.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/pc/login_left.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/colin/mapper/AdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/colin/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/colin/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="30" selection-start-line="21" selection-start-column="3" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/adminLogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/totalPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/car/first/nd.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/car/first/shoucang.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/car/first/sx.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/user/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/car/fourth/qz.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/car/fourth/qz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/admin/updateTitle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/admin/title.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/admin/adminLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/colin/util/yzm/CodeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/colin/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/gt3sdk/static/gt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/mybatisconfig/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/springconfig/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/springconfig/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/springmvcconfig/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/springconfig/applicationContext-transaction.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/mapperxmlconfig/AdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/user/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3180">
+          <caret line="106" column="76" selection-start-line="106" selection-start-column="76" selection-end-line="106" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/colin/controller/CodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/mapperxmlconfig/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/colin/bean/Title.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/updateTitle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/title2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/colin/controller/TitleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="278" column="43" lean-forward="true" selection-start-line="278" selection-start-column="43" selection-end-line="278" selection-end-column="43" />
+          <folding>
+            <element signature="e#964#2190#0" />
+            <element signature="e#2197#3424#0" />
+            <element signature="e#3431#4854#0" />
+            <element signature="e#4861#6287#0" />
+            <element signature="e#6294#8052#0" />
+            <element signature="e#8308#8593#0" />
+            <element signature="e#8600#8912#0" />
+            <element signature="e#9031#11859#0" />
+            <element signature="e#12428#15241#0" />
+            <element signature="e#15248#15563#0" />
+            <element signature="e#15570#15745#0" />
+            <element signature="e#15921#16601#0" />
+            <element signature="e#16607#17265#0" />
+            <element signature="e#17271#18253#0" />
+            <element signature="e#18259#18959#0" />
+            <element signature="e#18965#19718#0" />
+            <element signature="e#19724#20475#0" />
+            <element signature="e#20482#21087#0" />
+            <element signature="e#21093#21895#0" />
+            <element signature="e#21902#22586#0" />
+            <element signature="e#22592#23254#0" />
+            <element signature="e#23260#24241#0" />
+            <element signature="e#24247#25417#0" />
+            <element signature="e#25423#26179#0" />
+            <element signature="e#26185#26939#0" />
+            <element signature="e#26946#27553#0" />
+            <element signature="e#27559#28360#0" />
+            <element signature="e#28366#29353#0" />
+            <element signature="e#29372#29689#0" />
+            <element signature="e#29695#30832#0" />
+            <element signature="e#30838#32350#0" />
+            <element signature="e#32356#34734#0" />
+            <element signature="e#34741#35194#0" />
+            <element signature="e#35200#35660#0" />
+            <element signature="e#35696#36351#0" />
+            <element signature="e#36358#37015#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/addTitle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/admin/addTitle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2370">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/colin/service/TitleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/colin/service/impl/TitleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/colin/mapper/TitleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/mapperxmlconfig/TitleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="44" column="148" selection-start-line="44" selection-start-column="122" selection-end-line="44" selection-end-column="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/avatar/150423199910274415.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/avatar/150423199903150019.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/colin/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="152" column="10" selection-start-line="152" selection-start-column="10" selection-end-line="152" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/user/myInformation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="67" column="63" selection-start-line="67" selection-start-column="63" selection-end-line="67" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/Launcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/colin/bean/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="946" selection-start-line="946" selection-end-line="946" />
+          <folding>
+            <element signature="e#35532#35533#0" expanded="true" />
+            <element signature="e#35824#35825#0" expanded="true" />
+            <element signature="e#35852#35853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="1473" column="9" lean-forward="true" selection-start-line="1473" selection-start-column="9" selection-end-line="1473" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/k.java" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>traffic</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ssm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>c3p0-0.9.5.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
